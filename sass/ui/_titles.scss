@@ -1,0 +1,18 @@
+@use '../base/mixins.scss' as *;
+
+.title {
+  @include text-preset-2;
+  color: var(--color-brown-800);
+}
+
+.title-h1 {
+  @include text-preset-1;
+  font-size: 36px;
+  color: var(--color-stone-900);
+}
+
+@media screen and (min-width: 768px) {
+  .title-h1 {
+    font-size: 40px;
+  }
+}

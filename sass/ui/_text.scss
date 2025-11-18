@@ -1,0 +1,11 @@
+@use '../base/mixins.scss' as *;
+
+.text-normal {
+  @include text-preset-4;
+  color: var(--color-stone-600);
+
+  &_bold {
+    @include text-preset-4-bold;
+    color: var(--color-stone-600);
+  }
+}

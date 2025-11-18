@@ -1,0 +1,20 @@
+.container {
+  width: clamp(375px, 80%, 736px);
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 40px 32px;
+}
+
+.container#container-top {
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 40px;
+  }
+
+  .container#container-top {
+    padding: 40px 40px 0 40px;
+  }
+}

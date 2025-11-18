@@ -1,0 +1,40 @@
+.hero {
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    margin-bottom: 32px;
+  }
+
+  .preparation-time {
+    min-height: 196px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-200);
+    padding: var(--spacing-300);
+    border-radius: var(--spacing-150);
+    background: var(--color-rose-50);
+
+    &__title {
+      color: rgba(122, 40, 78, 1);
+      font-family: Outfit;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    &__link {
+      text-decoration: none;
+
+    }
+  }
+}
